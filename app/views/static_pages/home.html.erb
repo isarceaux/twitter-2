@@ -1,0 +1,15 @@
+<h1>Vous pouvez envoyer un tweet depuis cette page</h1>
+<p></p>
+
+<%= form_tag('/tweets') %>
+
+  <p>
+    Tweet 
+    <br>
+    <%= text_field_tag name='tweet' %>
+  </p>
+
+  <p>
+    <%= submit_tag value='Tweeeet!' %>
+  </p>
+
